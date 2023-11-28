@@ -125,7 +125,6 @@ class Calculadora : AppCompatActivity() {
         if (Operacion.equals("=")) {
             var valor2 = valor.text.toString()
             valor.text = Operar(operador, auxiliar, valor2)
-
         }
         else {
             if (operador.equals("")) {
